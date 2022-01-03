@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    font-family: Comic Sans MS, serif;
+}
+
+table {
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(136, 136, 136);
+}
+
+tr:nth-child(even){
+    background-color: rgb(106, 106, 106);
+}
+
+td, tr {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: coral;
+}
+
+td:hover {
+    background-color: chocolate;
+}
