@@ -13,6 +13,7 @@ function add_avis($_departement, $_promo, $_module, $_etudiant, $_commentaire, $
             $req->bindParam(':note', $_note);
             $req->execute();
             if ($req == true) {
+                header("Location: ./index.php?controller=avis-lister");
                 return 0;
             } else {
                 $code_error = 3;

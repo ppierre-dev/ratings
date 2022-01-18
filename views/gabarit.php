@@ -7,6 +7,7 @@
         if(isset($controller)) {
             if(file_exists('controllers/'.$controller.'.php')) echo "<link href='css/'.$controller.'.css' rel='stylesheet'>";
         }
+        if(file_exists('js/app.js')) echo "<script src='js/app.js'></script>"
     ?>
 </head>
 <body>
